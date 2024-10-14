@@ -14,8 +14,8 @@ namespace FrmBasicThread
             Thread ThreadB = new Thread(MyThreadClass.Thread1);
             Thread ThreadA = new Thread(MyThreadClass.Thread1);
 
-            ThreadA.Name = "Thread Process A = ";
-            ThreadB.Name = "Thread Process B = ";
+            ThreadA.Name = "Thread Process A ";
+            ThreadB.Name = "Thread Process B ";
 
             Console.WriteLine("-Before Starting Thread-");
             ThreadA.Start();
